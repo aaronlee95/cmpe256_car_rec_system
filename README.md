@@ -1,6 +1,6 @@
 # CMPE256 - Vehicle Recommendation System
 
-# System Minimum Requriements
+# System Requriements
 1. Python 3.6
 2. Django 2.7.7
 3. Pandas 0.24.2
