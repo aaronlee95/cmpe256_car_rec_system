@@ -1,4 +1,4 @@
-# cmpe256_car_rec_system
+# CMPE256 - Vehicle Recommendation System
 
 # System Requriements
 1. Python 3.6+
