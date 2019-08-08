@@ -1,0 +1,188 @@
+Manufacturer,Vehicle,year,category,MSRP(Min),MSRP(Max),comfort,driving,interior,overall rating,tech,utility,link
+acura,2019 Acura MDX Hybrid,2019,suv,"$44,300 ","$60,050 ",8.0,8.0,7.5,8.0,7.5,9.0,https://www.edmunds.com/acura/mdx/2019/
+acura,2019 Acura MDX SUV,2019,suv,"$44,300 ","$60,050 ",8.0,8.0,7.5,8.0,7.5,9.0,https://www.edmunds.com/acura/mdx/2019/
+acura,2019 Acura NSX Coupe,2019,coupe,"$157,500 ","$157,500 ",6.9,8.5,7.5,6.9,5.5,4.0,https://www.edmunds.com/acura/nsx/2019/
+acura,2020 Acura RDX SUV,2020,suv,"$37,600 ","$47,700 ",8.0,7.5,7.5,7.9,8.5,8.5,https://www.edmunds.com/acura/rdx/2020/
+acura,2020 Acura TLX Sedan,2020,sedan,"$33,000 ","$48,950 ",8.0,7.5,8.0,7.5,7.0,7.0,https://www.edmunds.com/acura/tlx/2020/
+audi,2019 Audi A4 Sedan,2019,sedan,"$37,400 ","$50,800 ",8.2,8.5,8.5,8.2,9.0,8.0,https://www.edmunds.com/audi/a4/2019/
+audi,2019 Audi A4 allroad Wagon,2019,wagon,"$45,700 ","$53,900 ",8.1,7.5,9.0,8.1,8.0,8.5,https://www.edmunds.com/audi/a4-allroad/2019/
+audi,2019 Audi A6 Sedan,2019,sedan,"$58,900 ","$67,100 ",8.2,9.0,8.0,8.2,9.0,7.0,https://www.edmunds.com/audi/a6/2019/
+audi,2019 Audi A7 Sedan,2019,sedan,"$68,000 ","$76,300 ",8.1,8.5,7.5,8.1,9.0,7.5,https://www.edmunds.com/audi/a7/2019/
+audi,2019 Audi Q5 SUV,2019,suv,"$42,950 ","$53,850 ",7.9,7.5,8.5,7.9,8.0,7.0,https://www.edmunds.com/audi/q5/2019/
+audi,2019 Audi Q8 SUV,2019,suv,"$67,400 ","$76,550 ",7.8,7.5,7.5,7.8,8.0,7.5,https://www.edmunds.com/audi/q8/2019/
+audi,2019 Audi RS 3 Sedan,2019,sedan,"$56,200 ","$56,200 ",7.9,8.5,8.0,7.9,8.0,8.0,https://www.edmunds.com/audi/rs-3/2019/
+audi,2019 Audi S4 Sedan,2019,sedan,"$50,200 ","$57,800 ",8.5,9.0,8.5,8.5,8.5,7.5,https://www.edmunds.com/audi/s4/2019/
+audi,2019 Audi SQ5 SUV,2019,suv,"$52,400 ","$62,100 ",7.7,7.5,8.5,7.7,7.0,7.5,https://www.edmunds.com/audi/sq5/2019/
+audi,2019 Audi TT Convertible,2019,coupe,"$44,900 ","$44,900 ",8.3,8.5,8.5,8.3,8.0,7.0,https://www.edmunds.com/audi/tt/2019/
+audi,2019 Audi TT Coupe,2019,coupe,"$44,900 ","$44,900 ",8.3,8.5,8.5,8.3,8.0,7.0,https://www.edmunds.com/audi/tt/2019/
+bmw,2018 BMW 5 Series Diesel,2018,sedan,"$52,650 ","$73,900 ",8.1,8.0,8.0,8.1,8.5,8.0,https://www.edmunds.com/bmw/5-series/2018/
+bmw,2019 BMW 3 Series Wagon,2019,sedan,"$40,250 ","$42,250 ",7.6,8.0,7.5,7.6,7.0,8.0,https://www.edmunds.com/bmw/3-series/2019/
+bmw,2019 BMW 4 Series Convertible,2019,coupe,"$44,800 ","$53,200 ",7.9,4.0,8.0,7.9,8.0,7.5,https://www.edmunds.com/bmw/4-series/2019/
+bmw,2019 BMW 4 Series Coupe,2019,coupe,"$44,800 ","$53,200 ",7.9,4.0,8.0,7.9,8.0,7.5,https://www.edmunds.com/bmw/4-series/2019/
+bmw,2019 BMW 4 Series Gran Coupe Sedan,2019,sedan,"$44,600 ","$53,000 ",7.1,7.5,7.0,7.1,8.0,6.0,https://www.edmunds.com/bmw/4-series-gran-coupe/2019/
+bmw,2019 BMW 5 Series Hybrid,2019,sedan,"$53,400 ","$74,450 ",8.1,8.0,8.0,8.1,8.5,8.0,https://www.edmunds.com/bmw/5-series/2019/
+bmw,2019 BMW 5 Series M550i xDrive,2019,sedan,"$53,400 ","$74,450 ",8.1,8.0,8.0,8.1,8.5,8.0,https://www.edmunds.com/bmw/5-series/2019/
+bmw,2019 BMW 5 Series Sedan,2019,sedan,"$53,400 ","$74,450 ",8.1,8.0,8.0,8.1,8.5,8.0,https://www.edmunds.com/bmw/5-series/2019/
+bmw,2019 BMW 6 Series Gran Turismo Hatchback,2019,hatchback,"$70,300 ","$70,300 ",7.6,7.0,8.0,7.6,8.0,8.5,https://www.edmunds.com/bmw/6-series-gran-turismo/2019/
+bmw,2019 BMW 8 Series Convertible,2019,coupe,"$111,900 ","$111,900 ",8.2,8.5,7.5,8.2,7.5,8.0,https://www.edmunds.com/bmw/8-series/2019/
+bmw,2019 BMW 8 Series Coupe,2019,coupe,"$111,900 ","$111,900 ",8.2,8.5,7.5,8.2,7.5,8.0,https://www.edmunds.com/bmw/8-series/2019/
+bmw,2019 BMW M5 Sedan,2019,sedan,"$102,700 ","$110,000 ",8.6,9.0,8.5,8.6,8.5,8.0,https://www.edmunds.com/bmw/m5/2019/
+bmw,2019 BMW X2 M35i,2019,suv,"$36,400 ","$46,450 ",7.2,8.0,7.0,7.2,7.5,7.0,https://www.edmunds.com/bmw/x2/2019/
+bmw,2019 BMW X2 SUV,2019,suv,"$36,400 ","$46,450 ",7.2,8.0,7.0,7.2,7.5,7.0,https://www.edmunds.com/bmw/x2/2019/
+bmw,2019 BMW X3 M40i,2019,suv,"$41,000 ","$54,650 ",7.8,7.5,8.0,7.8,7.5,8.0,https://www.edmunds.com/bmw/x3/2019/
+bmw,2019 BMW X4 M40i,2019,suv,"$50,450 ","$60,450 ",7.5,7.5,7.0,7.5,7.0,7.5,https://www.edmunds.com/bmw/x4/2019/
+bmw,2019 BMW i3 Hatchback,2019,hatchback,"$44,450 ","$51,500 ",8.4,9.0,8.0,8.4,8.0,8.0,https://www.edmunds.com/bmw/i3/2019/
+buick,2019 Buick Cascada Convertible,2019,convertible,"$33,070 ","$37,070 ",5.6,5.5,6.0,5.6,5.0,6.5,https://www.edmunds.com/buick/cascada/2019/
+buick,2019 Buick LaCrosse Hybrid,2019,sedan,"$29,570 ","$47,070 ",6.3,6.0,7.0,6.3,7.5,6.0,https://www.edmunds.com/buick/lacrosse/2019/
+buick,2019 Buick LaCrosse Sedan,2019,sedan,"$29,570 ","$47,070 ",6.3,6.0,7.0,6.3,7.5,6.0,https://www.edmunds.com/buick/lacrosse/2019/
+buick,2019 Buick Regal Sportback GS,2019,sedan,"$25,070 ","$39,070 ",7.9,7.5,7.5,7.9,8.0,9.0,https://www.edmunds.com/buick/regal-sportback/2019/
+buick,2019 Buick Regal Sportback Hatchback,2019,sedan,"$25,070 ","$39,070 ",7.9,7.5,7.5,7.9,8.0,9.0,https://www.edmunds.com/buick/regal-sportback/2019/
+buick,2019 Buick Regal TourX Wagon,2019,wagon,"$29,070 ","$35,070 ",7.6,7.5,7.5,7.6,7.5,7.5,https://www.edmunds.com/buick/regal-tourx/2019/
+buick,2020 Buick Envision SUV,2020,suv,"$31,995 ","$43,600 ",8.0,7.0,7.0,7.2,8.0,7.5,https://www.edmunds.com/buick/envision/2020/
+chevrolet,2018 Chevrolet Silverado 3500HD Double Cab,2018,truck,"$35,260 ","$43,355 ",7.1,8.0,7.5,7.1,6.0,7.5,https://www.edmunds.com/chevrolet/silverado-3500hd/2018/
+chevrolet,2018 Chevrolet Silverado 3500HD Regular Cab,2018,truck,"$35,260 ","$43,355 ",7.1,8.0,7.5,7.1,6.0,7.5,https://www.edmunds.com/chevrolet/silverado-3500hd/2018/
+chevrolet,2019 Chevrolet Blazer SUV,2019,suv,"$28,800 ","$45,600 ",7.1,7.5,7.0,7.1,8.0,6.5,https://www.edmunds.com/chevrolet/blazer/2019/
+chevrolet,2019 Chevrolet Bolt EV Hatchback,2019,hatchback,"$36,620 ","$41,020 ",7.9,8.5,8.5,7.9,7.5,8.0,https://www.edmunds.com/chevrolet/bolt-ev/2019/
+chevrolet,2019 Chevrolet Camaro Convertible,2019,coupe,"$25,000 ","$62,000 ",7.4,9.0,6.5,7.4,7.0,5.0,https://www.edmunds.com/chevrolet/camaro/2019/
+chevrolet,2019 Chevrolet Camaro Coupe,2019,coupe,"$25,000 ","$62,000 ",7.4,9.0,6.5,7.4,7.0,5.0,https://www.edmunds.com/chevrolet/camaro/2019/
+chevrolet,2019 Chevrolet Camaro ZL1,2019,coupe,"$25,000 ","$62,000 ",7.4,9.0,6.5,7.4,7.0,5.0,https://www.edmunds.com/chevrolet/camaro/2019/
+chevrolet,2019 Chevrolet Equinox Diesel,2019,suv,"$23,800 ","$35,700 ",7.4,8.0,7.0,7.4,8.0,7.5,https://www.edmunds.com/chevrolet/equinox/2019/
+chevrolet,2019 Chevrolet Silverado 1500 Double Cab,2019,truck,"$28,300 ","$32,900 ",7.2,7.5,7.0,7.2,7.5,8.0,https://www.edmunds.com/chevrolet/silverado-1500/2019/
+chevrolet,2019 Chevrolet Silverado 1500 Regular Cab,2019,truck,"$28,300 ","$32,900 ",7.2,7.5,7.0,7.2,7.5,8.0,https://www.edmunds.com/chevrolet/silverado-1500/2019/
+chevrolet,2019 Chevrolet Silverado 2500HD Double Cab,2019,truck,"$37,600 ","$45,900 ",7.2,8.0,7.5,7.2,6.0,7.5,https://www.edmunds.com/chevrolet/silverado-2500hd/2019/
+chevrolet,2019 Chevrolet Silverado 2500HD Regular Cab,2019,truck,"$37,600 ","$45,900 ",7.2,8.0,7.5,7.2,6.0,7.5,https://www.edmunds.com/chevrolet/silverado-2500hd/2019/
+chevrolet,2019 Chevrolet Tahoe SUV,2019,suv,"$46,800 ","$65,700 ",7.0,6.5,7.5,7.0,7.5,6.0,https://www.edmunds.com/chevrolet/tahoe/2019/
+chevrolet,2020 Chevrolet Equinox SUV,2020,suv,"$23,800 ","$35,700 ",7.0,8.0,7.0,7.4,8.0,7.5,https://www.edmunds.com/chevrolet/equinox/2020/
+chrysler,2019 Chrysler 300 Sedan,2019,sedan,"$29,220 ","$41,695 ",7.6,7.5,8.0,7.6,8.0,7.5,https://www.edmunds.com/chrysler/300/2019/
+chrysler,2019 Chrysler Pacifica Hybrid Minivan,2019,minivan,"$39,995 ","$45,545 ",7.9,7.0,8.5,7.9,8.5,8.0,https://www.edmunds.com/chrysler/pacifica-hybrid/2019/
+chrysler,2019 Chrysler Pacifica Minivan,2019,minivan,"$26,985 ","$44,445 ",7.6,7.5,8.5,7.6,8.0,8.0,https://www.edmunds.com/chrysler/pacifica/2019/
+dodge,2018 Dodge Charger SRT 392,2018,sedan,"$28,995 ","$66,295 ",7.4,8.0,7.0,7.4,8.0,6.5,https://www.edmunds.com/dodge/charger/2018/
+dodge,2019 Dodge Challenger Coupe,2019,coupe,"$27,845 ","$69,995 ",7.8,7.5,7.5,7.8,8.0,8.0,https://www.edmunds.com/dodge/challenger/2019/
+dodge,2019 Dodge Challenger R/T Scat Pack,2019,coupe,"$27,845 ","$69,995 ",7.8,7.5,7.5,7.8,8.0,8.0,https://www.edmunds.com/dodge/challenger/2019/
+dodge,2019 Dodge Challenger SRT Hellcat,2019,coupe,"$27,845 ","$69,995 ",7.8,7.5,7.5,7.8,8.0,8.0,https://www.edmunds.com/dodge/challenger/2019/
+dodge,2019 Dodge Challenger SRT Hellcat Redeye,2019,coupe,"$27,845 ","$69,995 ",7.8,7.5,7.5,7.8,8.0,8.0,https://www.edmunds.com/dodge/challenger/2019/
+dodge,2019 Dodge Charger SRT Hellcat,2019,sedan,"$29,220 ","$65,545 ",7.4,8.0,7.0,7.4,8.0,6.5,https://www.edmunds.com/dodge/charger/2019/
+dodge,2019 Dodge Journey SUV,2019,suv,"$22,995 ","$35,295 ",5.4,5.5,6.5,5.4,4.0,7.0,https://www.edmunds.com/dodge/journey/2019/
+fiat,2019 FIAT 124 Spider Convertible,2019,convertible,"$25,190 ","$29,290 ",6.4,7.0,6.5,6.4,7.0,5.0,https://www.edmunds.com/fiat/124-spider/2019/
+ford,2018 Ford Focus RS Hatchback,2018,hatchback,"$41,120 ","$41,120 ",7.6,8.5,7.0,7.6,7.0,7.5,https://www.edmunds.com/ford/focus-rs/2018/
+ford,2019 Ford Edge SUV,2019,suv,"$29,995 ","$42,355 ",7.6,7.0,7.5,7.6,8.0,8.0,https://www.edmunds.com/ford/edge/2019/
+ford,2019 Ford Expedition SUV,2019,suv,"$48,530 ","$79,200 ",7.7,7.5,8.0,7.7,8.5,8.5,https://www.edmunds.com/ford/expedition/2019/
+ford,2019 Ford F-150 Regular Cab,2019,truck,"$28,155 ","$37,885 ",8.1,8.5,8.5,8.1,7.5,8.5,https://www.edmunds.com/ford/f-150/2019/
+ford,2019 Ford F-150 SuperCab,2019,truck,"$28,155 ","$37,885 ",8.1,8.5,8.5,8.1,7.5,8.5,https://www.edmunds.com/ford/f-150/2019/
+ford,2019 Ford F-150 SuperCrew,2019,truck,"$28,155 ","$37,885 ",8.1,8.5,8.5,8.1,7.5,8.5,https://www.edmunds.com/ford/f-150/2019/
+ford,2019 Ford F-250 Super Duty Diesel,2019,truck,"$33,150 ","$40,165 ",8.0,8.0,8.0,8.0,8.0,8.5,https://www.edmunds.com/ford/f-250-super-duty/2019/
+ford,2019 Ford F-250 Super Duty Regular Cab,2019,truck,"$33,150 ","$40,165 ",8.0,8.0,8.0,8.0,8.0,8.5,https://www.edmunds.com/ford/f-250-super-duty/2019/
+ford,2019 Ford F-250 Super Duty SuperCab,2019,truck,"$33,150 ","$40,165 ",8.0,8.0,8.0,8.0,8.0,8.5,https://www.edmunds.com/ford/f-250-super-duty/2019/
+ford,2019 Ford Ranger Crew Cab,2019,truck,"$24,300 ","$36,390 ",6.8,7.0,7.0,6.8,8.0,6.0,https://www.edmunds.com/ford/ranger/2019/
+ford,2019 Ford Ranger SuperCab,2019,truck,"$24,300 ","$36,390 ",6.8,7.0,7.0,6.8,8.0,6.0,https://www.edmunds.com/ford/ranger/2019/
+ford,2019 Ford Taurus SHO,2019,sedan,"$27,800 ","$42,975 ",6.8,7.0,6.0,6.8,7.5,7.5,https://www.edmunds.com/ford/taurus/2019/
+ford,2019 Ford Taurus Sedan,2019,sedan,"$27,800 ","$42,975 ",6.8,7.0,6.0,6.8,7.5,7.5,https://www.edmunds.com/ford/taurus/2019/
+ford,2020 Ford EcoSport SUV,2020,suv,"$20,485 ","$27,715 ",7.0,6.0,7.0,6.8,7.0,7.0,https://www.edmunds.com/ford/ecosport/2020/
+ford,2020 Ford Mustang BULLITT,2020,coupe,"$26,670 ","$47,810 ",8.0,8.5,8.0,7.9,8.0,6.5,https://www.edmunds.com/ford/mustang/2020/
+ford,2020 Ford Mustang Convertible,2020,coupe,"$26,670 ","$47,810 ",8.0,8.5,8.0,7.9,8.0,6.5,https://www.edmunds.com/ford/mustang/2020/
+ford,2020 Ford Mustang Coupe,2020,coupe,"$26,670 ","$47,810 ",8.0,8.5,8.0,7.9,8.0,6.5,https://www.edmunds.com/ford/mustang/2020/
+ford,2020 Ford Transit Connect Diesel,2020,minivan,"$24,275 ","$32,250 ",7.0,7.5,7.5,7.0,7.0,5.5,https://www.edmunds.com/ford/transit-connect/2020/
+ford,2020 Ford Transit Connect Minivan,2020,minivan,"$24,275 ","$32,250 ",7.0,7.5,7.5,7.0,7.0,5.5,https://www.edmunds.com/ford/transit-connect/2020/
+gmc,2019 GMC Sierra 1500 Double Cab,2019,truck,"$29,600 ","$34,200 ",7.3,7.5,7.5,7.3,7.5,8.0,https://www.edmunds.com/gmc/sierra-1500/2019/
+gmc,2019 GMC Sierra 1500 Regular Cab,2019,truck,"$29,600 ","$34,200 ",7.3,7.5,7.5,7.3,7.5,8.0,https://www.edmunds.com/gmc/sierra-1500/2019/
+gmc,2019 GMC Terrain Diesel,2019,suv,"$25,000 ","$39,500 ",6.5,6.0,6.0,6.5,7.5,7.0,https://www.edmunds.com/gmc/terrain/2019/
+gmc,2019 GMC Yukon SUV,2019,suv,"$49,600 ","$69,700 ",6.9,7.5,7.0,6.9,6.5,7.0,https://www.edmunds.com/gmc/yukon/2019/
+honda,2018 Honda Civic Si w/Summer Tires,2018,sedan,"$18,940 ","$26,800 ",8.4,8.5,8.0,8.4,8.0,8.5,https://www.edmunds.com/honda/civic/2018/
+honda,2018 Honda Civic Type R Touring,2018,sedan,"$18,940 ","$26,800 ",8.4,8.5,8.0,8.4,8.0,8.5,https://www.edmunds.com/honda/civic/2018/
+honda,2019 Honda Accord Hybrid Sedan,2019,sedan,"$25,320 ","$34,990 ",7.8,7.5,8.0,7.8,8.0,9.0,https://www.edmunds.com/honda/accord-hybrid/2019/
+honda,2019 Honda Accord Sedan,2019,sedan,"$23,720 ","$35,950 ",8.3,8.5,8.0,8.3,8.0,9.0,https://www.edmunds.com/honda/accord/2019/
+honda,2019 Honda CR-V SUV,2019,suv,"$24,350 ","$34,150 ",8.1,8.0,8.5,8.1,8.0,9.5,https://www.edmunds.com/honda/cr-v/2019/
+honda,2019 Honda Clarity Electric,2019,sedan,"$33,400 ","$36,620 ",7.2,7.0,8.0,7.2,7.0,7.0,https://www.edmunds.com/honda/clarity/2019/
+honda,2019 Honda Clarity Hybrid,2019,sedan,"$33,400 ","$36,620 ",7.2,7.0,8.0,7.2,7.0,7.0,https://www.edmunds.com/honda/clarity/2019/
+honda,2019 Honda Clarity Sedan,2019,sedan,"$33,400 ","$36,620 ",7.2,7.0,8.0,7.2,7.0,7.0,https://www.edmunds.com/honda/clarity/2019/
+honda,2019 Honda HR-V SUV,2019,suv,"$20,520 ","$28,540 ",7.6,7.5,8.0,7.6,7.5,8.5,https://www.edmunds.com/honda/hr-v/2019/
+honda,2019 Honda Insight Sedan,2019,sedan,"$22,930 ","$28,190 ",8.1,7.5,8.5,8.1,8.0,8.0,https://www.edmunds.com/honda/insight/2019/
+honda,2019 Honda Odyssey Minivan,2019,minivan,"$30,190 ","$47,070 ",8.1,8.0,8.5,8.1,8.0,9.0,https://www.edmunds.com/honda/odyssey/2019/
+honda,2019 Honda Passport SUV,2019,suv,"$31,990 ","$43,680 ",8.1,8.0,8.0,8.1,8.0,8.5,https://www.edmunds.com/honda/passport/2019/
+honda,2019 Honda Pilot SUV,2019,suv,"$31,450 ","$48,020 ",8.2,7.5,8.0,8.2,8.0,8.5,https://www.edmunds.com/honda/pilot/2019/
+honda,2019 Honda Ridgeline Crew Cab,2019,truck,"$29,990 ","$43,420 ",8.4,8.5,9.0,8.4,8.0,8.5,https://www.edmunds.com/honda/ridgeline/2019/
+hyundai,2018 Hyundai Santa Fe Sport SUV,2018,suv,"$24,950 ","$37,200 ",3.5,3.0,3.0,3.5,3.0,4.0,https://www.edmunds.com/hyundai/santa-fe-sport/2018/
+hyundai,2019 Hyundai Accent Sedan,2019,sedan,"$14,995 ","$19,080 ",7.2,7.0,8.0,7.2,6.0,7.0,https://www.edmunds.com/hyundai/accent/2019/
+hyundai,2019 Hyundai Elantra GT Hatchback,2019,hatchback,"$20,450 ","$24,400 ",7.6,7.5,7.5,7.6,7.5,7.5,https://www.edmunds.com/hyundai/elantra-gt/2019/
+hyundai,2019 Hyundai Ioniq Electric Hatchback,2019,hatchback,"$30,315 ","$36,815 ",7.8,7.5,8.0,7.8,8.0,7.0,https://www.edmunds.com/hyundai/ioniq-electric/2019/
+hyundai,2019 Hyundai Ioniq Hybrid Hatchback,2019,hatchback,"$22,400 ","$28,550 ",6.7,5.5,7.5,6.7,7.5,7.0,https://www.edmunds.com/hyundai/ioniq-hybrid/2019/
+hyundai,2019 Hyundai Ioniq Plug-In Hybrid Hatchback,2019,hatchback,"$25,350 ","$29,350 ",7.3,6.5,7.0,7.3,8.0,7.0,https://www.edmunds.com/hyundai/ioniq-plug-in-hybrid/2019/
+hyundai,2019 Hyundai Kona Electric SUV,2019,suv,"$36,950 ","$44,900 ",8.2,8.0,8.0,8.2,8.5,7.0,https://www.edmunds.com/hyundai/kona-electric/2019/
+hyundai,2019 Hyundai Kona SUV,2019,suv,"$19,990 ","$31,950 ",7.9,8.0,8.0,7.9,8.5,7.0,https://www.edmunds.com/hyundai/kona/2019/
+hyundai,2019 Hyundai Santa Fe SUV,2019,suv,"$25,750 ","$38,800 ",7.8,7.0,8.0,7.8,8.0,7.5,https://www.edmunds.com/hyundai/santa-fe/2019/
+hyundai,2019 Hyundai Sonata Hybrid Sedan,2019,sedan,"$25,750 ","$31,300 ",7.5,7.0,8.0,7.5,8.0,8.0,https://www.edmunds.com/hyundai/sonata-hybrid/2019/
+hyundai,2019 Hyundai Tucson SUV,2019,suv,"$23,200 ","$32,950 ",8.0,8.0,8.0,8.0,8.0,7.5,https://www.edmunds.com/hyundai/tucson/2019/
+hyundai,2019 Hyundai Veloster Hatchback,2019,hatchback,"$18,500 ","$28,150 ",8.3,9.0,8.0,8.3,8.0,8.0,https://www.edmunds.com/hyundai/veloster/2019/
+hyundai,2019 Hyundai Veloster N,2019,hatchback,"$18,500 ","$28,150 ",8.3,9.0,8.0,8.3,8.0,8.0,https://www.edmunds.com/hyundai/veloster/2019/
+hyundai,2020 Hyundai Elantra Sedan,2020,sedan,"$18,950 ","$23,800 ",6.0,6.0,6.5,6.9,6.5,7.5,https://www.edmunds.com/hyundai/elantra/2020/
+infiniti,2018 INFINITI Q70 Hybrid,2018,sedan,"$50,300 ","$67,600 ",6.6,7.5,8.0,6.6,4.5,6.0,https://www.edmunds.com/infiniti/q70/2018/
+infiniti,2019 INFINITI Q70 Sedan,2019,sedan,"$50,400 ","$67,700 ",6.6,7.5,8.0,6.6,4.5,6.0,https://www.edmunds.com/infiniti/q70/2019/
+infiniti,2019 INFINITI QX30 SUV,2019,suv,"$30,250 ","$41,500 ",6.9,8.0,6.5,6.9,7.0,6.5,https://www.edmunds.com/infiniti/qx30/2019/
+infiniti,2019 INFINITI QX50 SUV,2019,suv,"$36,650 ","$45,450 ",7.6,6.5,8.5,7.6,7.5,8.5,https://www.edmunds.com/infiniti/qx50/2019/
+infiniti,2019 INFINITI QX80 SUV,2019,suv,"$65,500 ","$90,200 ",7.2,8.0,7.0,7.2,7.0,8.0,https://www.edmunds.com/infiniti/qx80/2019/
+jeep,2018 Jeep Wrangler JK SUV,2018,suv,"$23,995 ","$42,945 ",7.1,7.5,6.5,7.1,6.0,6.0,https://www.edmunds.com/jeep/wrangler-jk/2018/
+jeep,2019 Jeep Cherokee SUV,2019,suv,"$24,795 ","$38,245 ",7.8,7.5,8.0,7.8,8.5,8.0,https://www.edmunds.com/jeep/cherokee/2019/
+jeep,2019 Jeep Compass SUV,2019,suv,"$21,845 ","$31,690 ",7.3,6.0,7.5,7.3,8.0,7.0,https://www.edmunds.com/jeep/compass/2019/
+jeep,2019 Jeep Grand Cherokee SRT,2019,suv,"$31,945 ","$86,900 ",7.9,8.5,8.0,7.9,7.5,7.5,https://www.edmunds.com/jeep/grand-cherokee/2019/
+jeep,2019 Jeep Grand Cherokee SUV,2019,suv,"$31,945 ","$86,900 ",7.9,8.5,8.0,7.9,7.5,7.5,https://www.edmunds.com/jeep/grand-cherokee/2019/
+jeep,2019 Jeep Grand Cherokee Trackhawk,2019,suv,"$31,945 ","$86,900 ",7.9,8.5,8.0,7.9,7.5,7.5,https://www.edmunds.com/jeep/grand-cherokee/2019/
+jeep,2019 Jeep Wrangler SUV,2019,suv,"$28,045 ","$51,300 ",7.8,7.5,7.5,7.8,8.0,7.5,https://www.edmunds.com/jeep/wrangler/2019/
+jeep,2020 Jeep Gladiator Crew Cab,2020,truck,"$33,545 ","$43,545 ",7.5,7.0,8.0,7.9,8.5,7.0,https://www.edmunds.com/jeep/gladiator/2020/
+kia,2018 Kia Forte Hatchback,2018,sedan,"$16,800 ","$21,700 ",8.1,8.5,7.5,8.1,7.5,8.5,https://www.edmunds.com/kia/forte/2018/
+kia,2019 Kia Cadenza Sedan,2019,sedan,"$33,100 ","$44,100 ",7.5,7.5,8.0,7.5,7.5,7.5,https://www.edmunds.com/kia/cadenza/2019/
+kia,2019 Kia Niro Plug-In Hybrid SUV,2019,suv,"$28,500 ","$35,200 ",6.9,6.0,8.0,6.9,7.5,6.5,https://www.edmunds.com/kia/niro-plug-in-hybrid/2019/
+kia,2019 Kia Niro SUV,2019,suv,"$23,490 ","$32,250 ",7.0,6.0,8.0,7.0,7.5,6.5,https://www.edmunds.com/kia/niro/2019/
+kia,2019 Kia Optima Sedan,2019,sedan,"$22,990 ","$31,990 ",7.6,8.0,8.0,7.6,7.5,7.5,https://www.edmunds.com/kia/optima/2019/
+kia,2019 Kia Rio Hatchback,2019,sedan,"$15,390 ","$16,190 ",7.7,7.5,8.0,7.7,7.0,7.5,https://www.edmunds.com/kia/rio/2019/
+kia,2019 Kia Rio Sedan,2019,sedan,"$15,390 ","$16,190 ",7.7,7.5,8.0,7.7,7.0,7.5,https://www.edmunds.com/kia/rio/2019/
+kia,2019 Kia Sorento SUV,2019,suv,"$26,290 ","$46,490 ",7.5,7.0,8.0,7.5,8.0,7.5,https://www.edmunds.com/kia/sorento/2019/
+kia,2019 Kia Stinger Sedan,2019,sedan,"$32,990 ","$52,400 ",8.2,8.5,7.0,8.2,8.5,8.5,https://www.edmunds.com/kia/stinger/2019/
+kia,2020 Kia Soul Wagon,2020,wagon,"$17,490 ","$27,490 ",7.5,8.0,8.5,7.8,7.0,7.5,https://www.edmunds.com/kia/soul/2020/
+kia,2020 Kia Telluride SUV,2020,suv,"$31,690 ","$43,490 ",9.0,8.0,8.5,8.4,8.0,8.0,https://www.edmunds.com/kia/telluride/2020/
+lexus,2019 Lexus ES 300h Sedan,2019,sedan,"$41,560 ","$45,210 ",7.9,7.0,8.5,7.9,6.5,8.5,https://www.edmunds.com/lexus/es-300h/2019/
+lexus,2019 Lexus ES 350 Sedan,2019,sedan,"$39,750 ","$44,285 ",8.1,8.0,8.0,8.1,8.0,8.0,https://www.edmunds.com/lexus/es-350/2019/
+lexus,2019 Lexus GS F Sedan,2019,sedan,"$84,600 ","$84,600 ",7.7,9.0,7.5,7.7,5.5,7.5,https://www.edmunds.com/lexus/gs-f/2019/
+lexus,2019 Lexus IS 300 Sedan,2019,sedan,"$38,560 ","$43,805 ",7.2,7.0,6.5,7.2,6.5,7.5,https://www.edmunds.com/lexus/is-300/2019/
+lexus,2019 Lexus LS 500 Sedan,2019,sedan,"$75,450 ","$84,670 ",7.6,7.0,7.0,7.6,6.5,8.0,https://www.edmunds.com/lexus/ls-500/2019/
+lexus,2019 Lexus LX 570 SUV,2019,suv,"$86,230 ","$91,230 ",6.9,6.5,7.0,6.9,7.0,7.0,https://www.edmunds.com/lexus/lx-570/2019/
+lexus,2019 Lexus RC 300 Coupe,2019,coupe,"$41,145 ","$50,035 ",7.1,7.5,7.0,7.1,6.5,6.5,https://www.edmunds.com/lexus/rc-300/2019/
+lexus,2019 Lexus RC 350 Coupe,2019,coupe,"$44,075 ","$52,400 ",7.2,8.0,7.0,7.2,6.5,6.5,https://www.edmunds.com/lexus/rc-350/2019/
+lexus,2019 Lexus UX 200 SUV,2019,suv,"$32,150 ","$37,350 ",7.1,7.0,6.8,7.1,7.0,6.5,https://www.edmunds.com/lexus/ux-200/2019/
+lexus,2020 Lexus RC F Coupe,2020,coupe,"$64,750 ","$96,650 ",8.0,7.0,7.0,6.6,5.0,5.5,https://www.edmunds.com/lexus/rc-f/2020/
+mazda,2019 Mazda 3 Hatchback,2019,sedan,"$21,000 ","$27,900 ",7.6,8.0,7.5,7.6,7.0,7.0,https://www.edmunds.com/mazda/3/2019/
+mazda,2019 Mazda 3 Sedan,2019,sedan,"$21,000 ","$27,900 ",7.6,8.0,7.5,7.6,7.0,7.0,https://www.edmunds.com/mazda/3/2019/
+mazda,2019 Mazda 6 Sedan,2019,sedan,"$23,800 ","$35,100 ",8.2,8.5,8.5,8.2,7.5,8.0,https://www.edmunds.com/mazda/6/2019/
+mazda,2019 Mazda CX-3 SUV,2019,suv,"$20,390 ","$27,145 ",7.6,7.5,8.5,7.6,7.0,6.5,https://www.edmunds.com/mazda/cx-3/2019/
+mazda,2019 Mazda CX-5 SUV,2019,suv,"$24,350 ","$36,890 ",8.1,8.0,8.0,8.1,8.0,8.5,https://www.edmunds.com/mazda/cx-5/2019/
+mazda,2019 Mazda CX-9 SUV,2019,suv,"$32,280 ","$45,365 ",7.9,8.5,8.0,7.9,8.0,7.0,https://www.edmunds.com/mazda/cx-9/2019/
+mazda,2019 Mazda MX-5 Miata Convertible,2019,convertible,"$25,730 ","$31,855 ",8.0,9.0,7.5,8.0,8.0,6.0,https://www.edmunds.com/mazda/mx-5-miata/2019/
+mazda,2019 Mazda MX-5 Miata RF Convertible,2019,convertible,"$32,345 ","$34,410 ",8.0,9.0,7.5,8.0,8.0,5.5,https://www.edmunds.com/mazda/mx-5-miata-rf/2019/
+subaru,2019 Subaru BRZ Coupe,2019,coupe,"$25,795 ","$30,140 ",7.4,8.0,7.5,7.4,5.5,7.5,https://www.edmunds.com/subaru/brz/2019/
+subaru,2019 Subaru Crosstrek Hybrid,2019,suv,"$21,895 ","$34,995 ",7.6,7.0,8.5,7.6,7.5,7.0,https://www.edmunds.com/subaru/crosstrek/2019/
+subaru,2019 Subaru Crosstrek SUV,2019,suv,"$21,895 ","$34,995 ",7.6,7.0,8.5,7.6,7.5,7.0,https://www.edmunds.com/subaru/crosstrek/2019/
+subaru,2019 Subaru Forester SUV,2019,suv,"$24,295 ","$34,295 ",7.8,7.0,8.5,7.8,8.5,8.0,https://www.edmunds.com/subaru/forester/2019/
+subaru,2019 Subaru Impreza Hatchback,2019,sedan,"$18,595 ","$25,190 ",7.4,7.5,8.5,7.4,8.0,7.0,https://www.edmunds.com/subaru/impreza/2019/
+subaru,2019 Subaru Impreza Sedan,2019,sedan,"$18,595 ","$25,190 ",7.4,7.5,8.5,7.4,8.0,7.0,https://www.edmunds.com/subaru/impreza/2019/
+toyota,2019 Toyota 86 Coupe,2019,coupe,"$26,655 ","$32,420 ",7.6,8.0,7.5,7.6,7.0,7.5,https://www.edmunds.com/toyota/86/2019/
+toyota,2019 Toyota C-HR SUV,2019,suv,"$21,145 ","$26,200 ",6.6,6.5,7.0,6.6,7.0,6.0,https://www.edmunds.com/toyota/c-hr/2019/
+toyota,2019 Toyota Camry Hybrid Sedan,2019,sedan,"$28,400 ","$32,975 ",7.8,7.5,8.5,7.8,6.5,8.5,https://www.edmunds.com/toyota/camry-hybrid/2019/
+toyota,2019 Toyota Camry Sedan,2019,sedan,"$24,095 ","$34,850 ",7.6,7.5,8.0,7.6,6.5,8.5,https://www.edmunds.com/toyota/camry/2019/
+toyota,2019 Toyota Corolla Hatchback,2019,hatchback,"$20,140 ","$24,240 ",7.4,7.5,7.5,7.4,7.0,6.0,https://www.edmunds.com/toyota/corolla-hatchback/2019/
+toyota,2019 Toyota Highlander Hybrid SUV,2019,suv,"$37,320 ","$48,980 ",7.0,7.0,7.5,7.0,6.5,6.5,https://www.edmunds.com/toyota/highlander-hybrid/2019/
+toyota,2019 Toyota Land Cruiser SUV,2019,suv,"$85,165 ","$85,165 ",7.9,8.5,7.5,7.9,7.0,7.0,https://www.edmunds.com/toyota/land-cruiser/2019/
+toyota,2019 Toyota Prius Hatchback,2019,hatchback,"$23,770 ","$32,200 ",7.8,7.5,8.5,7.8,6.5,8.0,https://www.edmunds.com/toyota/prius/2019/
+toyota,2019 Toyota RAV4 Hybrid SUV,2019,suv,"$27,850 ","$35,850 ",7.8,7.0,8.0,7.8,8.0,8.0,https://www.edmunds.com/toyota/rav4-hybrid/2019/
+toyota,2019 Toyota Tacoma Access Cab,2019,truck,"$25,850 ","$35,830 ",7.4,7.5,7.0,7.4,7.0,7.5,https://www.edmunds.com/toyota/tacoma/2019/
+toyota,2019 Toyota Tacoma Double Cab,2019,truck,"$25,850 ","$35,830 ",7.4,7.5,7.0,7.4,7.0,7.5,https://www.edmunds.com/toyota/tacoma/2019/
+toyota,2019 Toyota Tundra CrewMax,2019,truck,"$31,670 ","$43,985 ",6.7,6.5,7.0,6.7,6.5,7.0,https://www.edmunds.com/toyota/tundra/2019/
+toyota,2019 Toyota Tundra Double Cab,2019,truck,"$31,670 ","$43,985 ",6.7,6.5,7.0,6.7,6.5,7.0,https://www.edmunds.com/toyota/tundra/2019/
+toyota,2020 Toyota Sienna Minivan,2020,minivan,"$31,415 ","$49,190 ",7.5,7.0,7.5,7.3,7.0,8.0,https://www.edmunds.com/toyota/sienna/2020/
+volkswagen,2019 Volkswagen Arteon Hatchback,2019,hatchback,"$35,845 ","$46,710 ",7.5,7.5,7.5,7.5,7.0,8.0,https://www.edmunds.com/volkswagen/arteon/2019/
+volkswagen,2019 Volkswagen Atlas SUV,2019,suv,"$30,895 ","$48,395 ",7.8,8.0,8.0,7.8,8.0,8.0,https://www.edmunds.com/volkswagen/atlas/2019/
+volkswagen,2019 Volkswagen Golf Alltrack Wagon,2019,wagon,"$26,895 ","$36,095 ",7.4,7.5,8.0,7.4,7.0,7.5,https://www.edmunds.com/volkswagen/golf-alltrack/2019/
+volkswagen,2019 Volkswagen Golf GTI Hatchback,2019,hatchback,"$27,595 ","$37,095 ",8.4,7.5,8.5,8.4,8.5,8.5,https://www.edmunds.com/volkswagen/golf-gti/2019/
+volkswagen,2019 Volkswagen Golf Hatchback,2019,hatchback,"$21,845 ","$25,245 ",7.8,7.5,8.5,7.8,8.0,8.5,https://www.edmunds.com/volkswagen/golf/2019/
+volkswagen,2019 Volkswagen Golf R Hatchback,2019,hatchback,"$40,395 ","$41,495 ",8.6,9.0,9.0,8.6,8.5,8.0,https://www.edmunds.com/volkswagen/golf-r/2019/
+volkswagen,2019 Volkswagen Jetta Sedan,2019,sedan,"$18,745 ","$27,695 ",7.4,7.0,7.5,7.4,7.5,8.0,https://www.edmunds.com/volkswagen/jetta/2019/
+volkswagen,2019 Volkswagen Tiguan SUV,2019,suv,"$24,295 ","$38,895 ",7.3,6.0,8.0,7.3,7.5,8.0,https://www.edmunds.com/volkswagen/tiguan/2019/
+volkswagen,2019 Volkswagen e-Golf Hatchback,2019,hatchback,"$31,895 ","$38,895 ",7.9,8.0,8.5,7.9,7.5,8.0,https://www.edmunds.com/volkswagen/e-golf/2019/
