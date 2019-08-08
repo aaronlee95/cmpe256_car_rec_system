@@ -69,11 +69,11 @@ def recommend(request):
 
     price = request.POST.get('price', None)
 
-    comfort = request.POST.get('comfort', False)
-    driving = request.POST.get('driving', False)
-    interior = request.POST.get('interior', False)
-    tech = request.POST.get('tech', False)
-    utility = request.POST.get('utility', False)
+    comfort = request.POST.get('comfort', 0)
+    driving = request.POST.get('driving', 0)
+    interior = request.POST.get('interior', 0)
+    tech = request.POST.get('tech', 0)
+    utility = request.POST.get('utility', 0)
 
     # knowledge_based_rec(df, manufacturer, veh_type, None, .14, .23, .21, .12, .30)
     knowledge_based_rec(df, manufacturer, veh_type, None, comfort, driving, interior, tech, utility)
