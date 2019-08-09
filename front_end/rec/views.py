@@ -22,9 +22,7 @@ def knowledge_based_rec(df,
                         utility=None):
     """
     Calculate Utility based on Edmunds Rating from the User's Requirements.
-
     """
-
     # int("0") = 0, int("1") = 1
     attributes = {'comfort': int(comfort),
                   'driving': int(driving),
@@ -61,7 +59,7 @@ def knowledge_based_rec(df,
     if 'Calculated Utility' in df.columns:
         del df['Calculated Utility']
 
-    df.insert(0, 'Calculated Utility', cu, allow=_duplicatesTrue)
+    df.insert(0, 'Calculated Utility', cu, allow_duplicates=True)
 
 
     print(f"Weight: {weight}")
@@ -69,7 +67,17 @@ def knowledge_based_rec(df,
     return attributes
 
 def recommend(request):
-    # Get path and Read CSV FIle with weight of each vehicles
+    """
+        Get path and Read CSV FIle with weight of each vehicles
+        Based on the User's Requirements that is selected from the
+        Web application , sort and Filter based on manufacturer, vehicle type,
+        Price, and selected vehicle aspects.
+
+        If not choices are selected, display all vehicles with the highest
+        calcuated utiltiy.
+
+    """
+
     cwd = os.getcwd()
     csv_name = "post_process_edmund_rating.csv"
     DATA_SRC = os.path.join(cwd, 'rec', csv_name)
@@ -87,23 +95,26 @@ def recommend(request):
     utility = request.POST.get('utility', 0)
 
     attributes = knowledge_based_rec(df, manufacturer, veh_type, price, comfort, driving, interior, tech, utility)
-    z = df.sort_values('Calculated Utility').tail(10)
 
-    # if 0 != attributes['weight']:
-    #     z = df.sort_values('Calculated Utility').tail(10)
-    # else:
-    #     z = df.sort_values('overall rating').tail(10)
+    print(f"Manufacturer: {manufacturer}")
+    print(f"Vehicle Type: {veh_type}")
+    print(f"price: {price}")
 
-
-
-
+    if (manufacturer != 'None') and (veh_type != 'None'):
+        # print('Displaying MFG and VEH_TYPE')
+        mf = df.loc[(df['Manufacturer'] == manufacturer)].sort_values('Calculated Utility').tail(10).iloc[::-1]
+        z = mf.loc[(mf['category'] == veh_type)]
+    elif manufacturer != 'None':
+        # print("Displaying MFG")
+        z = df.loc[(df['Manufacturer'] == manufacturer)].sort_values('Calculated Utility').tail(10).iloc[::-1]
+    elif veh_type != 'None':
+        # print("Displaying Vehicle Type")
+        z = df.loc[(df['category'] == veh_type)].sort_values('Calculated Utility').tail(10).iloc[::-1]
+    else:
+        # print("Displaying No Filters")
+        z = df.sort_values('Calculated Utility').tail(10).iloc[::-1]
 
     z = z.to_html()
-    # z = z.to_html(escaped=False)
 
-    # context = {'data': price}
-    # context = {'data': DATA_SRC}
     context = {'data': z}
-
-    # return render(request, "result.html", {'rec': z})
     return render(request, "result.html", context)
