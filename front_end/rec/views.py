@@ -34,7 +34,6 @@ def knowledge_based_rec(df,
                   'category': category,
                   'price': price
                   }
-
     cu = []
 
     sum = int(comfort) + int(driving) + int(interior) + int(tech) + int(utility)
@@ -102,19 +101,30 @@ def recommend(request):
 
     if (manufacturer != 'None') and (veh_type != 'None'):
         # print('Displaying MFG and VEH_TYPE')
-        mf = df.loc[(df['Manufacturer'] == manufacturer)].sort_values('Calculated Utility').tail(10).iloc[::-1]
+        # mf = df.loc[(df['Manufacturer'] == manufacturer)].sort_values('Calculated Utility').tail(10).iloc[::-1]
+        mf = df.loc[(df['Manufacturer'] == manufacturer)].sort_values('Calculated Utility').iloc[::-1]
         z = mf.loc[(mf['category'] == veh_type)]
     elif manufacturer != 'None':
         # print("Displaying MFG")
-        z = df.loc[(df['Manufacturer'] == manufacturer)].sort_values('Calculated Utility').tail(10).iloc[::-1]
+        # z = df.loc[(df['Manufacturer'] == manufacturer)].sort_values('Calculated Utility').tail(10).iloc[::-1]
+        z = df.loc[(df['Manufacturer'] == manufacturer)].sort_values('Calculated Utility').iloc[::-1]
     elif veh_type != 'None':
         # print("Displaying Vehicle Type")
-        z = df.loc[(df['category'] == veh_type)].sort_values('Calculated Utility').tail(10).iloc[::-1]
+        # z = df.loc[(df['category'] == veh_type)].sort_values('Calculated Utility').tail(10).iloc[::-1]
+        z = df.loc[(df['category'] == veh_type)].sort_values('Calculated Utility').iloc[::-1]
     else:
         # print("Displaying No Filters")
-        z = df.sort_values('Calculated Utility').tail(10).iloc[::-1]
+        # z = df.sort_values('Calculated Utility').tail(10).iloc[::-1]
+        z = df.sort_values('Calculated Utility').iloc[::-1]
 
-    z = z.to_html()
+    if price != '':
+        try:
+            if(int(price)):
+                z = z.loc[(z['MSRP(Min)'] <= int(price)) & (int(price) <= z['MSRP(Max)'])]
+        except ValueError as err:
+            print("Please enter Valid Integer Values")
+
+    z = z.tail(10).to_html()
 
     context = {'data': z}
     return render(request, "result.html", context)
