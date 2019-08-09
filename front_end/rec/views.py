@@ -3,8 +3,6 @@ from django.http import HttpResponse
 import pandas as pd
 import os
 
-# Create your views here.
-
 def home(request):
     """
     Test === Used to pass the title and render to home.html
@@ -61,8 +59,8 @@ def knowledge_based_rec(df,
     df.insert(0, 'Calculated Utility', cu, allow_duplicates=True)
 
 
-    print(f"Weight: {weight}")
-    print(f"attributes: {attributes}")
+    # print(f"Weight: {weight}")
+    # print(f"attributes: {attributes}")
     return attributes
 
 def recommend(request):
@@ -72,9 +70,8 @@ def recommend(request):
         Web application , sort and Filter based on manufacturer, vehicle type,
         Price, and selected vehicle aspects.
 
-        If not choices are selected, display all vehicles with the highest
-        calcuated utiltiy.
-
+        If choices/preferecense are not selected, display all vehicles with the
+        highest calcuated utiltiy.
     """
 
     cwd = os.getcwd()
@@ -95,36 +92,29 @@ def recommend(request):
 
     attributes = knowledge_based_rec(df, manufacturer, veh_type, price, comfort, driving, interior, tech, utility)
 
-    print(f"Manufacturer: {manufacturer}")
-    print(f"Vehicle Type: {veh_type}")
-    print(f"price: {price}")
-
     if (manufacturer != 'None') and (veh_type != 'None'):
-        # print('Displaying MFG and VEH_TYPE')
-        # mf = df.loc[(df['Manufacturer'] == manufacturer)].sort_values('Calculated Utility').tail(10).iloc[::-1]
-        mf = df.loc[(df['Manufacturer'] == manufacturer)].sort_values('Calculated Utility').iloc[::-1]
+        #  Manufacturer and Vehicle Type was selected in drop down list
+        mf = df.loc[(df['Manufacturer'] == manufacturer)].sort_values('Calculated Utility')
         z = mf.loc[(mf['category'] == veh_type)]
     elif manufacturer != 'None':
-        # print("Displaying MFG")
-        # z = df.loc[(df['Manufacturer'] == manufacturer)].sort_values('Calculated Utility').tail(10).iloc[::-1]
-        z = df.loc[(df['Manufacturer'] == manufacturer)].sort_values('Calculated Utility').iloc[::-1]
+        # Manufacturer Selected Only
+        z = df.loc[(df['Manufacturer'] == manufacturer)].sort_values('Calculated Utility')
     elif veh_type != 'None':
-        # print("Displaying Vehicle Type")
-        # z = df.loc[(df['category'] == veh_type)].sort_values('Calculated Utility').tail(10).iloc[::-1]
-        z = df.loc[(df['category'] == veh_type)].sort_values('Calculated Utility').iloc[::-1]
+        # Vehicle Type Selected Only
+        z = df.loc[(df['category'] == veh_type)].sort_values('Calculated Utility')
     else:
-        # print("Displaying No Filters")
-        # z = df.sort_values('Calculated Utility').tail(10).iloc[::-1]
-        z = df.sort_values('Calculated Utility').iloc[::-1]
+        # No choices Selected
+        z = df.sort_values('Calculated Utility')
 
     if price != '':
+        # Filter data if maximum price was selected
         try:
             if(int(price)):
-                z = z.loc[(z['MSRP(Min)'] <= int(price)) & (int(price) <= z['MSRP(Max)'])]
+                z = z.loc[(z['MSRP(Min)'] <= int(price)) & (int(price) >= z['MSRP(Max)'])]
         except ValueError as err:
             print("Please enter Valid Integer Values")
 
-    z = z.tail(10).to_html()
+    z = z.tail(10).iloc[::-1].to_html()
 
     context = {'data': z}
     return render(request, "result.html", context)
