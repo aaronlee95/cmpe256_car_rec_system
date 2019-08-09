@@ -4,6 +4,8 @@
 1. Python 3.6
 2. Django 2.7.7
 3. Pandas 0.24.2
+4. Selenium -- for data exraction
+5. chromedriver.exe -- for data extraction 
 
 # Getting Started
 1. Clone this project
@@ -15,4 +17,3 @@
 5. Open your Internet Browser and enter the following in the address bar:     
    127.0.0.1:8000
 6. The Recommendation System is now running.
-   
