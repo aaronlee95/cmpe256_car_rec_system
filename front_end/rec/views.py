@@ -12,7 +12,7 @@ def home(request):
 
 # def knowledge_based_rec(df,manufacturer=None, category=None,price=None,comfort=None,driving=None,interior=None,tech=None,utility=None):
     # int(False) = 0, int(True) = 1
-    # attributes = {'comfort': int(comfort), 'driving': int(driving), 'interior': int(interior), 
+    # attributes = {'comfort': int(comfort), 'driving': int(driving), 'interior': int(interior),
     #               'tech': int(tech), 'utility':int(utility)}
 
     # sum = int(comfort) + int(driving) + int(interior) + int(tech) + int(utility)
@@ -25,14 +25,31 @@ def home(request):
     # for i, row in df.iterrows():
     #     calculated_utility = (attributes['comfort']*weight)*row['comfort'] + (attributes['driving']*weight)*row['driving']
     #     + (attributes['interior']*weight)*row['interior'] + (attributes['tech']*weight)*row['tech'] + (attributes['utility']*weight)*row['utility']
-        
+
     #     cu.append(calculated_utility)
     # df.insert(0, 'Calculated Utility', cu, allow_duplicates=True)
     # int(False) = 0, int(True) = 1
-def knowledge_based_rec(df,manufacturer=None, category=None,price=None,comfort=None,driving=None,interior=None,tech=None,utility=None):
+def knowledge_based_rec(df,
+                        manufacturer=None,
+                        category=None,
+                        price=None,
+                        comfort=None,
+                        driving=None,
+                        interior=None,
+                        tech=None,
+                        utility=None):
+    """
+    Calculate Utility based on Edmunds Rating based on the User's Preferences.
+    Weight is determined
+
+    """
+
     # int(False) = 0, int(True) = 1
-    attributes = {'comfort': int(comfort), 'driving': int(driving), 'interior': int(interior), 
-                  'tech': int(tech), 'utility':int(utility)}
+    attributes = {'comfort': int(comfort),
+                  'driving': int(driving),
+                  'interior': int(interior),
+                  'tech': int(tech),
+                  'utility':int(utility)}
 
     cu = []
 
@@ -40,12 +57,16 @@ def knowledge_based_rec(df,manufacturer=None, category=None,price=None,comfort=N
     if 0 == sum:
         weight = 0.2
         for i, row in df.iterrows():
-            calculated_utility = weight*row['comfort'] + weight*row['driving'] + weight*row['interior'] + weight*row['tech'] + weight*row['utility']
+            calculated_utility = weight*row['comfort'] + weight*row['driving']
+            + weight*row['interior'] + weight*row['tech'] + weight*row['utility']
+
             cu.append(calculated_utility)
     else:
         weight = 1/sum
         for i, row in df.iterrows():
-            calculated_utility = (attributes['comfort']*weight)*row['comfort'] + (attributes['driving']*weight)*row['driving'] + (attributes['interior']*weight)*row['interior'] + (attributes['tech']*weight)*row['tech'] + (attributes['utility']*weight)*row['utility']
+            calculated_utility = (attributes['comfort']*weight)*row['comfort']
+            + (attributes['driving']*weight)*row['driving'] + (attributes['interior']*weight)*row['interior'] + (attributes['tech']*weight)*row['tech'] + (attributes['utility']*weight)*row['utility']
+
             cu.append(calculated_utility)
 
     print(f"Weight: {weight}")
@@ -54,6 +75,8 @@ def knowledge_based_rec(df,manufacturer=None, category=None,price=None,comfort=N
         del df['Calculated Utility']
 
     df.insert(0, 'Calculated Utility', cu, allow_duplicates=True)
+
+    return attributes
 
 
 
@@ -76,9 +99,18 @@ def recommend(request):
     utility = request.POST.get('utility', 0)
 
     # knowledge_based_rec(df, manufacturer, veh_type, None, .14, .23, .21, .12, .30)
-    knowledge_based_rec(df, manufacturer, veh_type, None, comfort, driving, interior, tech, utility)
+    attributes = knowledge_based_rec(df, manufacturer, veh_type, None, comfort, driving, interior, tech, utility)
 
+    # z = df.sort_values('Calculated Utility').tail(10)
+    z = df.reindex(index=df.index[::-1])
     z = df.sort_values('Calculated Utility').tail(10)
+
+    # data.reindex(index=data.index[::-1])
+
+
+
+
+
     z = z.to_html()
     # z = z.to_html(escaped=False)
 
