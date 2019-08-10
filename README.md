@@ -11,7 +11,7 @@
 1. Clone this project
 2. Open a terminal shell
 3. Change directories into the repository where you will find a file named 'manage.py.'
-   'cmpe256_car_rec_system/front_end', where a file 
+   'cd cmpe256_car_rec_system/front_end'/ 
 4. In the terminal, run the following command: 
    python manage.py runserver
 5. Open your Internet Browser and enter the following in the address bar:     
